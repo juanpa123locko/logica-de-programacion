@@ -1,4 +1,5 @@
-let var1 = 'holamundo'
-for (var i = 0; i < 90000; i++) {
-    document.write(var1 + '<br/>')
+let var1 = parseInt(prompt("Enter a number"));
+
+for (let i = 1; i <= var1; i++) {
+
 }
