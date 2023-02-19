@@ -20,3 +20,7 @@ button.addEventListener('click', () => {
     console.log(array);
     loop();
 });
+
+// quiero hacer un arraypush y usar el .foreach para recorrerlo y mostrarlo en pantalla al igual que quiero usar un for con el metodo .length para recorrerlo y mostrarlo en pantalla
+
+make a http request with node 
