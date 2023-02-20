@@ -1,26 +1,9 @@
-// quiero preguntarle al usuario dos digitos y quiero crear una funcion que me sume esos dos digitos
-// y me devuelva el resultado
-// 1.- pedirle al usuario dos digitos
-// 2.- crear una funcion que me sume esos dos digitos
-// 3.- mostrar el resultado
-function preguntar(pregunta, pregunta2) {
-    pregunta = prompt("ingrese numero 1");
-    pregunta2 = prompt("ingrese numero 2");
-    return parseInt(pregunta) + parseInt(pregunta2);
+const sumBtn = document.getElementById('sum-btn');
+sumBtn.addEventListener('click', sumNumbers);
+
+function sumNumbers() {
+  const num1 = parseInt(prompt('Ingrese el primer número:'));
+  const num2 = parseInt(prompt('Ingrese el segundo número:'));
+  const sum = num1 + num2;
+  console.log('La suma de los dos números es:', sum);
 }
-respuesta = preguntar();
-
-
-
-
-
-let button = document.createElement("button");
-button.innerHTML = "click";
-document.body.appendChild(button);
-
-
-button.addEventListener("click", function () {
-    preguntar();
-    console.log(respuesta)
-}
-    );
